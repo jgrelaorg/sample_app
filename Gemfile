@@ -11,6 +11,8 @@ end
 
 
 group :test do
+  gem 'minitest'
+  gem 'shoulda-matchers'
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
 end
